@@ -1,0 +1,570 @@
+08-15 22:26 INFO     cuda:0
+08-15 22:26 INFO     ####################################################################################################
+08-15 22:26 INFO     Partitioning data
+08-15 22:26 INFO     Data statistics: {0: {0: 953, 1: 142, 2: 141, 3: 75, 4: 695, 5: 819, 7: 2482}, 1: {0: 16, 1: 43, 2: 902, 3: 1650, 4: 86, 5: 182, 7: 693, 8: 110, 9: 6}, 2: {0: 9, 1: 8, 2: 290, 3: 769, 4: 841, 5: 283, 6: 119, 7: 1044, 8: 1014, 9: 58}, 3: {0: 395, 1: 1200, 2: 48, 3: 68, 4: 896, 5: 681, 6: 90, 7: 17, 8: 1351, 9: 301}, 4: {0: 504, 1: 2917, 2: 570, 3: 721, 4: 121, 5: 356}, 5: {0: 1262, 1: 71, 2: 325, 3: 119, 4: 1560, 5: 14, 6: 1, 7: 85, 8: 366}, 6: {0: 9, 1: 273, 2: 1657, 3: 40, 4: 1, 5: 130, 6: 1911, 7: 21, 8: 1160}, 7: {0: 722, 1: 3, 2: 281, 3: 738, 4: 22, 5: 974, 6: 624, 7: 1, 8: 82, 9: 878}, 8: {0: 1127, 1: 153, 2: 680, 3: 500, 4: 698, 5: 1139, 6: 92, 7: 23, 8: 1, 9: 3665}, 9: {0: 3, 1: 190, 2: 106, 3: 320, 4: 80, 5: 422, 6: 2163, 7: 634, 8: 916, 9: 92}}
+08-15 22:26 INFO     Initializing nets
+08-15 22:26 INFO     in comm round:0
+08-15 22:26 INFO     Training network 0. n_training: 5307
+08-15 22:26 INFO     Training network 0
+08-15 22:33 INFO     >> Training accuracy: 0.788204
+08-15 22:33 INFO     >> Test accuracy: 0.390700
+08-15 22:33 INFO      ** Training complete **
+08-15 22:33 INFO     net 0 final test acc 0.390700
+08-15 22:33 INFO     Training network 1. n_training: 3688
+08-15 22:33 INFO     Training network 1
+08-15 22:37 INFO     >> Training accuracy: 0.704176
+08-15 22:37 INFO     >> Test accuracy: 0.327400
+08-15 22:37 INFO      ** Training complete **
+08-15 22:37 INFO     net 1 final test acc 0.327400
+08-15 22:37 INFO     Training network 2. n_training: 4435
+08-15 22:37 INFO     Training network 2
+08-15 22:43 INFO     >> Training accuracy: 0.691319
+08-15 22:43 INFO     >> Test accuracy: 0.364900
+08-15 22:43 INFO      ** Training complete **
+08-15 22:43 INFO     net 2 final test acc 0.364900
+08-15 22:43 INFO     Training network 3. n_training: 5047
+08-15 22:43 INFO     Training network 3
+08-15 22:49 INFO     >> Training accuracy: 0.763424
+08-15 22:49 INFO     >> Test accuracy: 0.445800
+08-15 22:49 INFO      ** Training complete **
+08-15 22:49 INFO     net 3 final test acc 0.445800
+08-15 22:49 INFO     Training network 4. n_training: 5189
+08-15 22:49 INFO     Training network 4
+08-15 22:56 INFO     >> Training accuracy: 0.799383
+08-15 22:56 INFO     >> Test accuracy: 0.306600
+08-15 22:56 INFO      ** Training complete **
+08-15 22:56 INFO     net 4 final test acc 0.306600
+08-15 22:56 INFO     Training network 5. n_training: 3803
+08-15 22:56 INFO     Training network 5
+08-15 23:01 INFO     >> Training accuracy: 0.754141
+08-15 23:01 INFO     >> Test accuracy: 0.259700
+08-15 23:01 INFO      ** Training complete **
+08-15 23:01 INFO     net 5 final test acc 0.259700
+08-15 23:01 INFO     Training network 6. n_training: 5202
+08-15 23:01 INFO     Training network 6
+08-15 23:07 INFO     >> Training accuracy: 0.844291
+08-15 23:07 INFO     >> Test accuracy: 0.333800
+08-15 23:07 INFO      ** Training complete **
+08-15 23:07 INFO     net 6 final test acc 0.333800
+08-15 23:07 INFO     Training network 7. n_training: 4325
+08-15 23:07 INFO     Training network 7
+08-15 23:13 INFO     >> Training accuracy: 0.699653
+08-15 23:13 INFO     >> Test accuracy: 0.374600
+08-15 23:13 INFO      ** Training complete **
+08-15 23:13 INFO     net 7 final test acc 0.374600
+08-15 23:13 INFO     Training network 8. n_training: 8078
+08-15 23:13 INFO     Training network 8
+08-15 23:23 INFO     >> Training accuracy: 0.756004
+08-15 23:23 INFO     >> Test accuracy: 0.406100
+08-15 23:23 INFO      ** Training complete **
+08-15 23:23 INFO     net 8 final test acc 0.406100
+08-15 23:23 INFO     Training network 9. n_training: 4926
+08-15 23:23 INFO     Training network 9
+08-15 23:29 INFO     >> Training accuracy: 0.758831
+08-15 23:29 INFO     >> Test accuracy: 0.426400
+08-15 23:29 INFO      ** Training complete **
+08-15 23:29 INFO     net 9 final test acc 0.426400
+08-15 23:29 INFO     global n_training: 782
+08-15 23:29 INFO     global n_test: 313
+08-15 23:30 INFO     >> Global Model Train accuracy: 0.365460
+08-15 23:30 INFO     >> Global Model Test accuracy: 0.399400
+08-15 23:30 INFO     in comm round:1
+08-15 23:30 INFO     Training network 0. n_training: 5307
+08-15 23:30 INFO     Training network 0
+08-15 23:37 INFO     >> Training accuracy: 0.819107
+08-15 23:37 INFO     >> Test accuracy: 0.425500
+08-15 23:37 INFO      ** Training complete **
+08-15 23:37 INFO     net 0 final test acc 0.425500
+08-15 23:37 INFO     Training network 1. n_training: 3688
+08-15 23:37 INFO     Training network 1
+08-15 23:41 INFO     >> Training accuracy: 0.774132
+08-15 23:41 INFO     >> Test accuracy: 0.394800
+08-15 23:41 INFO      ** Training complete **
+08-15 23:41 INFO     net 1 final test acc 0.394800
+08-15 23:41 INFO     Training network 2. n_training: 4435
+08-15 23:41 INFO     Training network 2
+08-15 23:47 INFO     >> Training accuracy: 0.732807
+08-15 23:47 INFO     >> Test accuracy: 0.437200
+08-15 23:47 INFO      ** Training complete **
+08-15 23:47 INFO     net 2 final test acc 0.437200
+08-15 23:47 INFO     Training network 3. n_training: 5047
+08-15 23:47 INFO     Training network 3
+08-15 23:53 INFO     >> Training accuracy: 0.817912
+08-15 23:53 INFO     >> Test accuracy: 0.497000
+08-15 23:53 INFO      ** Training complete **
+08-15 23:53 INFO     net 3 final test acc 0.497000
+08-15 23:53 INFO     Training network 4. n_training: 5189
+08-15 23:53 INFO     Training network 4
+08-16 00:00 INFO     >> Training accuracy: 0.831567
+08-16 00:00 INFO     >> Test accuracy: 0.347800
+08-16 00:00 INFO      ** Training complete **
+08-16 00:00 INFO     net 4 final test acc 0.347800
+08-16 00:00 INFO     Training network 5. n_training: 3803
+08-16 00:00 INFO     Training network 5
+08-16 00:05 INFO     >> Training accuracy: 0.803576
+08-16 00:05 INFO     >> Test accuracy: 0.360200
+08-16 00:05 INFO      ** Training complete **
+08-16 00:05 INFO     net 5 final test acc 0.360200
+08-16 00:05 INFO     Training network 6. n_training: 5202
+08-16 00:05 INFO     Training network 6
+08-16 00:11 INFO     >> Training accuracy: 0.870627
+08-16 00:11 INFO     >> Test accuracy: 0.359800
+08-16 00:11 INFO      ** Training complete **
+08-16 00:11 INFO     net 6 final test acc 0.359800
+08-16 00:11 INFO     Training network 7. n_training: 4325
+08-16 00:11 INFO     Training network 7
+08-16 00:17 INFO     >> Training accuracy: 0.750520
+08-16 00:17 INFO     >> Test accuracy: 0.424900
+08-16 00:17 INFO      ** Training complete **
+08-16 00:17 INFO     net 7 final test acc 0.424900
+08-16 00:17 INFO     Training network 8. n_training: 8078
+08-16 00:17 INFO     Training network 8
+08-16 00:27 INFO     >> Training accuracy: 0.786333
+08-16 00:27 INFO     >> Test accuracy: 0.474400
+08-16 00:27 INFO      ** Training complete **
+08-16 00:27 INFO     net 8 final test acc 0.474400
+08-16 00:27 INFO     Training network 9. n_training: 4926
+08-16 00:27 INFO     Training network 9
+08-16 00:33 INFO     >> Training accuracy: 0.809176
+08-16 00:33 INFO     >> Test accuracy: 0.477800
+08-16 00:33 INFO      ** Training complete **
+08-16 00:33 INFO     net 9 final test acc 0.477800
+08-16 00:33 INFO     global n_training: 782
+08-16 00:33 INFO     global n_test: 313
+08-16 00:34 INFO     >> Global Model Train accuracy: 0.527080
+08-16 00:34 INFO     >> Global Model Test accuracy: 0.563100
+08-16 00:34 INFO     in comm round:2
+08-16 00:34 INFO     Training network 0. n_training: 5307
+08-16 00:34 INFO     Training network 0
+08-16 00:41 INFO     >> Training accuracy: 0.839646
+08-16 00:41 INFO     >> Test accuracy: 0.443900
+08-16 00:41 INFO      ** Training complete **
+08-16 00:41 INFO     net 0 final test acc 0.443900
+08-16 00:41 INFO     Training network 1. n_training: 3688
+08-16 00:41 INFO     Training network 1
+08-16 00:45 INFO     >> Training accuracy: 0.801518
+08-16 00:45 INFO     >> Test accuracy: 0.435900
+08-16 00:45 INFO      ** Training complete **
+08-16 00:45 INFO     net 1 final test acc 0.435900
+08-16 00:45 INFO     Training network 2. n_training: 4435
+08-16 00:45 INFO     Training network 2
+08-16 00:51 INFO     >> Training accuracy: 0.774746
+08-16 00:51 INFO     >> Test accuracy: 0.494400
+08-16 00:51 INFO      ** Training complete **
+08-16 00:51 INFO     net 2 final test acc 0.494400
+08-16 00:51 INFO     Training network 3. n_training: 5047
+08-16 00:51 INFO     Training network 3
+08-16 00:57 INFO     >> Training accuracy: 0.841490
+08-16 00:57 INFO     >> Test accuracy: 0.531700
+08-16 00:57 INFO      ** Training complete **
+08-16 00:57 INFO     net 3 final test acc 0.531700
+08-16 00:57 INFO     Training network 4. n_training: 5189
+08-16 00:57 INFO     Training network 4
+08-16 01:04 INFO     >> Training accuracy: 0.848140
+08-16 01:04 INFO     >> Test accuracy: 0.373100
+08-16 01:04 INFO      ** Training complete **
+08-16 01:04 INFO     net 4 final test acc 0.373100
+08-16 01:04 INFO     Training network 5. n_training: 3803
+08-16 01:04 INFO     Training network 5
+08-16 01:09 INFO     >> Training accuracy: 0.836445
+08-16 01:09 INFO     >> Test accuracy: 0.407400
+08-16 01:09 INFO      ** Training complete **
+08-16 01:09 INFO     net 5 final test acc 0.407400
+08-16 01:09 INFO     Training network 6. n_training: 5202
+08-16 01:09 INFO     Training network 6
+08-16 01:15 INFO     >> Training accuracy: 0.885044
+08-16 01:15 INFO     >> Test accuracy: 0.386000
+08-16 01:15 INFO      ** Training complete **
+08-16 01:15 INFO     net 6 final test acc 0.386000
+08-16 01:15 INFO     Training network 7. n_training: 4325
+08-16 01:15 INFO     Training network 7
+08-16 01:21 INFO     >> Training accuracy: 0.787746
+08-16 01:21 INFO     >> Test accuracy: 0.451600
+08-16 01:21 INFO      ** Training complete **
+08-16 01:21 INFO     net 7 final test acc 0.451600
+08-16 01:21 INFO     Training network 8. n_training: 8078
+08-16 01:21 INFO     Training network 8
+08-16 01:31 INFO     >> Training accuracy: 0.810968
+08-16 01:31 INFO     >> Test accuracy: 0.505500
+08-16 01:31 INFO      ** Training complete **
+08-16 01:31 INFO     net 8 final test acc 0.505500
+08-16 01:31 INFO     Training network 9. n_training: 4926
+08-16 01:31 INFO     Training network 9
+08-16 01:37 INFO     >> Training accuracy: 0.839423
+08-16 01:37 INFO     >> Test accuracy: 0.507200
+08-16 01:37 INFO      ** Training complete **
+08-16 01:37 INFO     net 9 final test acc 0.507200
+08-16 01:37 INFO     global n_training: 782
+08-16 01:37 INFO     global n_test: 313
+08-16 01:38 INFO     >> Global Model Train accuracy: 0.615680
+08-16 01:38 INFO     >> Global Model Test accuracy: 0.645000
+08-16 01:38 INFO     in comm round:3
+08-16 01:38 INFO     Training network 0. n_training: 5307
+08-16 01:38 INFO     Training network 0
+08-16 01:44 INFO     >> Training accuracy: 0.859996
+08-16 01:44 INFO     >> Test accuracy: 0.464400
+08-16 01:44 INFO      ** Training complete **
+08-16 01:44 INFO     net 0 final test acc 0.464400
+08-16 01:44 INFO     Training network 1. n_training: 3688
+08-16 01:44 INFO     Training network 1
+08-16 01:49 INFO     >> Training accuracy: 0.827278
+08-16 01:49 INFO     >> Test accuracy: 0.478600
+08-16 01:49 INFO      ** Training complete **
+08-16 01:49 INFO     net 1 final test acc 0.478600
+08-16 01:49 INFO     Training network 2. n_training: 4435
+08-16 01:49 INFO     Training network 2
+08-16 01:55 INFO     >> Training accuracy: 0.801578
+08-16 01:55 INFO     >> Test accuracy: 0.517300
+08-16 01:55 INFO      ** Training complete **
+08-16 01:55 INFO     net 2 final test acc 0.517300
+08-16 01:55 INFO     Training network 3. n_training: 5047
+08-16 01:55 INFO     Training network 3
+08-16 02:01 INFO     >> Training accuracy: 0.856945
+08-16 02:01 INFO     >> Test accuracy: 0.558900
+08-16 02:01 INFO      ** Training complete **
+08-16 02:01 INFO     net 3 final test acc 0.558900
+08-16 02:01 INFO     Training network 4. n_training: 5189
+08-16 02:01 INFO     Training network 4
+08-16 02:08 INFO     >> Training accuracy: 0.876084
+08-16 02:08 INFO     >> Test accuracy: 0.400000
+08-16 02:08 INFO      ** Training complete **
+08-16 02:08 INFO     net 4 final test acc 0.400000
+08-16 02:08 INFO     Training network 5. n_training: 3803
+08-16 02:08 INFO     Training network 5
+08-16 02:12 INFO     >> Training accuracy: 0.855903
+08-16 02:12 INFO     >> Test accuracy: 0.443900
+08-16 02:12 INFO      ** Training complete **
+08-16 02:12 INFO     net 5 final test acc 0.443900
+08-16 02:12 INFO     Training network 6. n_training: 5202
+08-16 02:12 INFO     Training network 6
+08-16 02:19 INFO     >> Training accuracy: 0.900807
+08-16 02:19 INFO     >> Test accuracy: 0.404500
+08-16 02:19 INFO      ** Training complete **
+08-16 02:19 INFO     net 6 final test acc 0.404500
+08-16 02:19 INFO     Training network 7. n_training: 4325
+08-16 02:19 INFO     Training network 7
+08-16 02:24 INFO     >> Training accuracy: 0.802775
+08-16 02:24 INFO     >> Test accuracy: 0.469000
+08-16 02:24 INFO      ** Training complete **
+08-16 02:24 INFO     net 7 final test acc 0.469000
+08-16 02:24 INFO     Training network 8. n_training: 8078
+08-16 02:24 INFO     Training network 8
+08-16 02:34 INFO     >> Training accuracy: 0.830775
+08-16 02:34 INFO     >> Test accuracy: 0.542400
+08-16 02:34 INFO      ** Training complete **
+08-16 02:34 INFO     net 8 final test acc 0.542400
+08-16 02:34 INFO     Training network 9. n_training: 4926
+08-16 02:34 INFO     Training network 9
+08-16 02:41 INFO     >> Training accuracy: 0.857897
+08-16 02:41 INFO     >> Test accuracy: 0.524400
+08-16 02:41 INFO      ** Training complete **
+08-16 02:41 INFO     net 9 final test acc 0.524400
+08-16 02:41 INFO     global n_training: 782
+08-16 02:41 INFO     global n_test: 313
+08-16 02:42 INFO     >> Global Model Train accuracy: 0.664440
+08-16 02:42 INFO     >> Global Model Test accuracy: 0.687300
+08-16 02:42 INFO     in comm round:4
+08-16 02:42 INFO     Training network 0. n_training: 5307
+08-16 02:42 INFO     Training network 0
+08-16 02:48 INFO     >> Training accuracy: 0.870925
+08-16 02:48 INFO     >> Test accuracy: 0.472100
+08-16 02:48 INFO      ** Training complete **
+08-16 02:48 INFO     net 0 final test acc 0.472100
+08-16 02:48 INFO     Training network 1. n_training: 3688
+08-16 02:48 INFO     Training network 1
+08-16 02:53 INFO     >> Training accuracy: 0.829718
+08-16 02:53 INFO     >> Test accuracy: 0.513000
+08-16 02:53 INFO      ** Training complete **
+08-16 02:53 INFO     net 1 final test acc 0.513000
+08-16 02:53 INFO     Training network 2. n_training: 4435
+08-16 02:53 INFO     Training network 2
+08-16 02:58 INFO     >> Training accuracy: 0.821195
+08-16 02:58 INFO     >> Test accuracy: 0.541900
+08-16 02:58 INFO      ** Training complete **
+08-16 02:58 INFO     net 2 final test acc 0.541900
+08-16 02:58 INFO     Training network 3. n_training: 5047
+08-16 02:58 INFO     Training network 3
+08-16 03:05 INFO     >> Training accuracy: 0.880523
+08-16 03:05 INFO     >> Test accuracy: 0.583100
+08-16 03:05 INFO      ** Training complete **
+08-16 03:05 INFO     net 3 final test acc 0.583100
+08-16 03:05 INFO     Training network 4. n_training: 5189
+08-16 03:05 INFO     Training network 4
+08-16 03:11 INFO     >> Training accuracy: 0.888418
+08-16 03:11 INFO     >> Test accuracy: 0.414700
+08-16 03:11 INFO      ** Training complete **
+08-16 03:11 INFO     net 4 final test acc 0.414700
+08-16 03:11 INFO     Training network 5. n_training: 3803
+08-16 03:11 INFO     Training network 5
+08-16 03:16 INFO     >> Training accuracy: 0.874310
+08-16 03:16 INFO     >> Test accuracy: 0.472000
+08-16 03:16 INFO      ** Training complete **
+08-16 03:16 INFO     net 5 final test acc 0.472000
+08-16 03:16 INFO     Training network 6. n_training: 5202
+08-16 03:16 INFO     Training network 6
+08-16 03:23 INFO     >> Training accuracy: 0.909842
+08-16 03:23 INFO     >> Test accuracy: 0.422200
+08-16 03:23 INFO      ** Training complete **
+08-16 03:23 INFO     net 6 final test acc 0.422200
+08-16 03:23 INFO     Training network 7. n_training: 4325
+08-16 03:23 INFO     Training network 7
+08-16 03:28 INFO     >> Training accuracy: 0.808092
+08-16 03:28 INFO     >> Test accuracy: 0.484800
+08-16 03:28 INFO      ** Training complete **
+08-16 03:28 INFO     net 7 final test acc 0.484800
+08-16 03:28 INFO     Training network 8. n_training: 8078
+08-16 03:28 INFO     Training network 8
+08-16 03:38 INFO     >> Training accuracy: 0.839688
+08-16 03:38 INFO     >> Test accuracy: 0.557700
+08-16 03:38 INFO      ** Training complete **
+08-16 03:38 INFO     net 8 final test acc 0.557700
+08-16 03:38 INFO     Training network 9. n_training: 4926
+08-16 03:38 INFO     Training network 9
+08-16 03:44 INFO     >> Training accuracy: 0.874137
+08-16 03:44 INFO     >> Test accuracy: 0.547200
+08-16 03:44 INFO      ** Training complete **
+08-16 03:44 INFO     net 9 final test acc 0.547200
+08-16 03:44 INFO     global n_training: 782
+08-16 03:44 INFO     global n_test: 313
+08-16 03:45 INFO     >> Global Model Train accuracy: 0.691940
+08-16 03:45 INFO     >> Global Model Test accuracy: 0.716100
+08-16 03:45 INFO     in comm round:5
+08-16 03:45 INFO     Training network 0. n_training: 5307
+08-16 03:45 INFO     Training network 0
+08-16 03:52 INFO     >> Training accuracy: 0.882985
+08-16 03:52 INFO     >> Test accuracy: 0.482800
+08-16 03:52 INFO      ** Training complete **
+08-16 03:52 INFO     net 0 final test acc 0.482800
+08-16 03:52 INFO     Training network 1. n_training: 3688
+08-16 03:52 INFO     Training network 1
+08-16 03:56 INFO     >> Training accuracy: 0.844089
+08-16 03:56 INFO     >> Test accuracy: 0.539500
+08-16 03:56 INFO      ** Training complete **
+08-16 03:56 INFO     net 1 final test acc 0.539500
+08-16 03:56 INFO     Training network 2. n_training: 4435
+08-16 03:56 INFO     Training network 2
+08-16 04:02 INFO     >> Training accuracy: 0.842841
+08-16 04:02 INFO     >> Test accuracy: 0.569400
+08-16 04:02 INFO      ** Training complete **
+08-16 04:02 INFO     net 2 final test acc 0.569400
+08-16 04:02 INFO     Training network 3. n_training: 5047
+08-16 04:02 INFO     Training network 3
+08-16 04:08 INFO     >> Training accuracy: 0.893006
+08-16 04:08 INFO     >> Test accuracy: 0.598100
+08-16 04:08 INFO      ** Training complete **
+08-16 04:08 INFO     net 3 final test acc 0.598100
+08-16 04:08 INFO     Training network 4. n_training: 5189
+08-16 04:08 INFO     Training network 4
+08-16 04:15 INFO     >> Training accuracy: 0.896126
+08-16 04:15 INFO     >> Test accuracy: 0.425100
+08-16 04:15 INFO      ** Training complete **
+08-16 04:15 INFO     net 4 final test acc 0.425100
+08-16 04:15 INFO     Training network 5. n_training: 3803
+08-16 04:15 INFO     Training network 5
+08-16 04:20 INFO     >> Training accuracy: 0.880358
+08-16 04:20 INFO     >> Test accuracy: 0.482900
+08-16 04:20 INFO      ** Training complete **
+08-16 04:20 INFO     net 5 final test acc 0.482900
+08-16 04:20 INFO     Training network 6. n_training: 5202
+08-16 04:20 INFO     Training network 6
+08-16 04:26 INFO     >> Training accuracy: 0.913687
+08-16 04:26 INFO     >> Test accuracy: 0.437100
+08-16 04:26 INFO      ** Training complete **
+08-16 04:26 INFO     net 6 final test acc 0.437100
+08-16 04:26 INFO     Training network 7. n_training: 4325
+08-16 04:26 INFO     Training network 7
+08-16 04:32 INFO     >> Training accuracy: 0.824971
+08-16 04:32 INFO     >> Test accuracy: 0.494600
+08-16 04:32 INFO      ** Training complete **
+08-16 04:32 INFO     net 7 final test acc 0.494600
+08-16 04:32 INFO     Training network 8. n_training: 8078
+08-16 04:32 INFO     Training network 8
+08-16 04:42 INFO     >> Training accuracy: 0.855657
+08-16 04:42 INFO     >> Test accuracy: 0.576200
+08-16 04:42 INFO      ** Training complete **
+08-16 04:42 INFO     net 8 final test acc 0.576200
+08-16 04:42 INFO     Training network 9. n_training: 4926
+08-16 04:42 INFO     Training network 9
+08-16 04:48 INFO     >> Training accuracy: 0.887942
+08-16 04:48 INFO     >> Test accuracy: 0.563300
+08-16 04:48 INFO      ** Training complete **
+08-16 04:48 INFO     net 9 final test acc 0.563300
+08-16 04:48 INFO     global n_training: 782
+08-16 04:48 INFO     global n_test: 313
+08-16 04:49 INFO     >> Global Model Train accuracy: 0.713720
+08-16 04:49 INFO     >> Global Model Test accuracy: 0.731300
+08-16 04:49 INFO     in comm round:6
+08-16 04:49 INFO     Training network 0. n_training: 5307
+08-16 04:49 INFO     Training network 0
+08-16 04:55 INFO     >> Training accuracy: 0.891276
+08-16 04:55 INFO     >> Test accuracy: 0.492000
+08-16 04:55 INFO      ** Training complete **
+08-16 04:55 INFO     net 0 final test acc 0.492000
+08-16 04:55 INFO     Training network 1. n_training: 3688
+08-16 04:55 INFO     Training network 1
+08-16 05:00 INFO     >> Training accuracy: 0.856833
+08-16 05:00 INFO     >> Test accuracy: 0.558300
+08-16 05:00 INFO      ** Training complete **
+08-16 05:00 INFO     net 1 final test acc 0.558300
+08-16 05:00 INFO     Training network 2. n_training: 4435
+08-16 05:00 INFO     Training network 2
+08-16 05:06 INFO     >> Training accuracy: 0.857948
+08-16 05:06 INFO     >> Test accuracy: 0.581100
+08-16 05:06 INFO      ** Training complete **
+08-16 05:06 INFO     net 2 final test acc 0.581100
+08-16 05:06 INFO     Training network 3. n_training: 5047
+08-16 05:06 INFO     Training network 3
+08-16 05:12 INFO     >> Training accuracy: 0.904300
+08-16 05:12 INFO     >> Test accuracy: 0.611200
+08-16 05:12 INFO      ** Training complete **
+08-16 05:12 INFO     net 3 final test acc 0.611200
+08-16 05:12 INFO     Training network 4. n_training: 5189
+08-16 05:12 INFO     Training network 4
+08-16 05:19 INFO     >> Training accuracy: 0.909231
+08-16 05:19 INFO     >> Test accuracy: 0.437400
+08-16 05:19 INFO      ** Training complete **
+08-16 05:19 INFO     net 4 final test acc 0.437400
+08-16 05:19 INFO     Training network 5. n_training: 3803
+08-16 05:19 INFO     Training network 5
+08-16 05:24 INFO     >> Training accuracy: 0.882198
+08-16 05:24 INFO     >> Test accuracy: 0.489800
+08-16 05:24 INFO      ** Training complete **
+08-16 05:24 INFO     net 5 final test acc 0.489800
+08-16 05:24 INFO     Training network 6. n_training: 5202
+08-16 05:24 INFO     Training network 6
+08-16 05:30 INFO     >> Training accuracy: 0.919839
+08-16 05:30 INFO     >> Test accuracy: 0.453400
+08-16 05:30 INFO      ** Training complete **
+08-16 05:30 INFO     net 6 final test acc 0.453400
+08-16 05:30 INFO     Training network 7. n_training: 4325
+08-16 05:30 INFO     Training network 7
+08-16 05:36 INFO     >> Training accuracy: 0.836301
+08-16 05:36 INFO     >> Test accuracy: 0.511100
+08-16 05:36 INFO      ** Training complete **
+08-16 05:36 INFO     net 7 final test acc 0.511100
+08-16 05:36 INFO     Training network 8. n_training: 8078
+08-16 05:36 INFO     Training network 8
+08-16 05:47 INFO     >> Training accuracy: 0.863828
+08-16 05:47 INFO     >> Test accuracy: 0.584600
+08-16 05:47 INFO      ** Training complete **
+08-16 05:47 INFO     net 8 final test acc 0.584600
+08-16 05:47 INFO     Training network 9. n_training: 4926
+08-16 05:47 INFO     Training network 9
+08-16 05:53 INFO     >> Training accuracy: 0.894438
+08-16 05:53 INFO     >> Test accuracy: 0.574900
+08-16 05:53 INFO      ** Training complete **
+08-16 05:53 INFO     net 9 final test acc 0.574900
+08-16 05:53 INFO     global n_training: 782
+08-16 05:53 INFO     global n_test: 313
+08-16 05:55 INFO     >> Global Model Train accuracy: 0.728400
+08-16 05:55 INFO     >> Global Model Test accuracy: 0.744800
+08-16 05:55 INFO     in comm round:7
+08-16 05:55 INFO     Training network 0. n_training: 5307
+08-16 05:55 INFO     Training network 0
+08-16 06:08 INFO     >> Training accuracy: 0.896929
+08-16 06:08 INFO     >> Test accuracy: 0.496200
+08-16 06:08 INFO      ** Training complete **
+08-16 06:08 INFO     net 0 final test acc 0.496200
+08-16 06:08 INFO     Training network 1. n_training: 3688
+08-16 06:08 INFO     Training network 1
+08-16 06:17 INFO     >> Training accuracy: 0.861714
+08-16 06:17 INFO     >> Test accuracy: 0.571600
+08-16 06:17 INFO      ** Training complete **
+08-16 06:17 INFO     net 1 final test acc 0.571600
+08-16 06:17 INFO     Training network 2. n_training: 4435
+08-16 06:17 INFO     Training network 2
+08-16 06:29 INFO     >> Training accuracy: 0.866967
+08-16 06:29 INFO     >> Test accuracy: 0.585000
+08-16 06:29 INFO      ** Training complete **
+08-16 06:29 INFO     net 2 final test acc 0.585000
+08-16 06:29 INFO     Training network 3. n_training: 5047
+08-16 06:29 INFO     Training network 3
+08-16 06:41 INFO     >> Training accuracy: 0.911433
+08-16 06:41 INFO     >> Test accuracy: 0.627700
+08-16 06:41 INFO      ** Training complete **
+08-16 06:41 INFO     net 3 final test acc 0.627700
+08-16 06:41 INFO     Training network 4. n_training: 5189
+08-16 06:42 INFO     Training network 4
+08-16 06:55 INFO     >> Training accuracy: 0.911929
+08-16 06:55 INFO     >> Test accuracy: 0.440800
+08-16 06:55 INFO      ** Training complete **
+08-16 06:55 INFO     net 4 final test acc 0.440800
+08-16 06:55 INFO     Training network 5. n_training: 3803
+08-16 06:55 INFO     Training network 5
+08-16 07:05 INFO     >> Training accuracy: 0.884565
+08-16 07:05 INFO     >> Test accuracy: 0.503600
+08-16 07:05 INFO      ** Training complete **
+08-16 07:05 INFO     net 5 final test acc 0.503600
+08-16 07:05 INFO     Training network 6. n_training: 5202
+08-16 07:05 INFO     Training network 6
+08-16 07:18 INFO     >> Training accuracy: 0.928489
+08-16 07:18 INFO     >> Test accuracy: 0.473000
+08-16 07:18 INFO      ** Training complete **
+08-16 07:18 INFO     net 6 final test acc 0.473000
+08-16 07:18 INFO     Training network 7. n_training: 4325
+08-16 07:18 INFO     Training network 7
+08-16 07:29 INFO     >> Training accuracy: 0.849942
+08-16 07:29 INFO     >> Test accuracy: 0.519200
+08-16 07:29 INFO      ** Training complete **
+08-16 07:29 INFO     net 7 final test acc 0.519200
+08-16 07:29 INFO     Training network 8. n_training: 8078
+08-16 07:29 INFO     Training network 8
+08-16 07:49 INFO     >> Training accuracy: 0.876950
+08-16 07:49 INFO     >> Test accuracy: 0.593300
+08-16 07:49 INFO      ** Training complete **
+08-16 07:49 INFO     net 8 final test acc 0.593300
+08-16 07:49 INFO     Training network 9. n_training: 4926
+08-16 07:49 INFO     Training network 9
+08-16 08:00 INFO     >> Training accuracy: 0.898498
+08-16 08:00 INFO     >> Test accuracy: 0.585300
+08-16 08:00 INFO      ** Training complete **
+08-16 08:00 INFO     net 9 final test acc 0.585300
+08-16 08:00 INFO     global n_training: 782
+08-16 08:00 INFO     global n_test: 313
+08-16 08:02 INFO     >> Global Model Train accuracy: 0.741140
+08-16 08:02 INFO     >> Global Model Test accuracy: 0.753300
+08-16 08:02 INFO     in comm round:8
+08-16 08:02 INFO     Training network 0. n_training: 5307
+08-16 08:02 INFO     Training network 0
+08-16 08:15 INFO     >> Training accuracy: 0.902770
+08-16 08:15 INFO     >> Test accuracy: 0.508600
+08-16 08:15 INFO      ** Training complete **
+08-16 08:15 INFO     net 0 final test acc 0.508600
+08-16 08:15 INFO     Training network 1. n_training: 3688
+08-16 08:15 INFO     Training network 1
+08-16 08:25 INFO     >> Training accuracy: 0.859816
+08-16 08:25 INFO     >> Test accuracy: 0.585500
+08-16 08:25 INFO      ** Training complete **
+08-16 08:25 INFO     net 1 final test acc 0.585500
+08-16 08:25 INFO     Training network 2. n_training: 4435
+08-16 08:25 INFO     Training network 2
+08-16 08:36 INFO     >> Training accuracy: 0.875536
+08-16 08:36 INFO     >> Test accuracy: 0.595200
+08-16 08:36 INFO      ** Training complete **
+08-16 08:36 INFO     net 2 final test acc 0.595200
+08-16 08:36 INFO     Training network 3. n_training: 5047
+08-16 08:36 INFO     Training network 3
+08-16 08:49 INFO     >> Training accuracy: 0.919952
+08-16 08:49 INFO     >> Test accuracy: 0.638900
+08-16 08:49 INFO      ** Training complete **
+08-16 08:49 INFO     net 3 final test acc 0.638900
+08-16 08:49 INFO     Training network 4. n_training: 5189
+08-16 08:49 INFO     Training network 4
+08-16 09:03 INFO     >> Training accuracy: 0.919638
+08-16 09:03 INFO     >> Test accuracy: 0.448600
+08-16 09:03 INFO      ** Training complete **
+08-16 09:03 INFO     net 4 final test acc 0.448600
+08-16 09:03 INFO     Training network 5. n_training: 3803
+08-16 09:03 INFO     Training network 5
+08-16 09:13 INFO     >> Training accuracy: 0.889298
+08-16 09:13 INFO     >> Test accuracy: 0.511500
+08-16 09:13 INFO      ** Training complete **
+08-16 09:13 INFO     net 5 final test acc 0.511500
+08-16 09:13 INFO     Training network 6. n_training: 5202
+08-16 09:13 INFO     Training network 6
+08-16 09:26 INFO     >> Training accuracy: 0.934256
+08-16 09:26 INFO     >> Test accuracy: 0.486400
+08-16 09:26 INFO      ** Training complete **
+08-16 09:26 INFO     net 6 final test acc 0.486400
+08-16 09:26 INFO     Training network 7. n_training: 4325
+08-16 09:27 INFO     Training network 7
